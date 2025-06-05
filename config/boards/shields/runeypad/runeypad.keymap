@@ -20,8 +20,7 @@
                   &kp LCTRL &kp SPACE &kp LSHIFT
                         >;
                 };
-
-                layer2 {
+                lower_layer {
                         bindings = <
    &none   &none   &none   &none   &none   &bt BT_CLR
    &none   &none   &none   &none   &none   &bootloader

@@ -21,13 +21,13 @@
                         >;
                 };
 
-                bt_layer {
+                layer2 {
                         bindings = <
-   &none   &none   &none   &none   &none   &bt BT_CLR                       
+   &none   &none   &none   &none   &none   &bt BT_CLR
    &none   &none   &none   &none   &none   &bootloader
    &none   &none   &none   &none   &none   &none
-   &none   &none   &none   &none   &none   &none   
-                   &bt BT_SEL0   &bt BT_SEL0  &bt BT_SEL0   
+   &none   &none   &none   &none   &none   &none
+                   &bt BT_SEL0   &bt BT_SEL1  &bt BT_SEL2
                         >;
                 };
         };

@@ -1,2 +1,2 @@
 config SHIELD_RUNEYPAD
-    def_bool $(shields_list_contains, runeypad)
+    def_bool $(shields_list_contains,runeypad) //no space

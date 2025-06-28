@@ -21,7 +21,7 @@
                 };
                 lower_layer {
                         bindings = <
-        &kp C_MUTE  &kp C_VOL_DOWN   &kp C_VOL_UP     $none   &none
+        &kp C_MUTE  &kp C_VOL_DOWN   &kp C_VOL_UP     &none   &none
         &kp C_PAUSE &kp C_PREV       &kp C_NEXT       &none   &bootloader
         &none   &none   &none        &bt BT_CLR_ALL   &bt BT_CLR 
 &bt BT_SEL 0    &none       &bt BT_SEL 1  &bt BT_SEL 2

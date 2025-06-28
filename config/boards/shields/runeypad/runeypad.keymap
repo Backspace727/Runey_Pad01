@@ -13,18 +13,18 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-        &mo 1   &kp N1  &kp N2  &kp N3 &kp N4                   
-        &kp TAB   &kp Q   &kp W   &kp E  &kp R
-        &kp ESC   &kp Z   &kp X   &kp C  &kp V
-   &kp LCTRL         &kp SPACE &kp LSHIFT &kp N1
+        &kp F1    &kp F2   &kp F3  &kp F4  &kp F5                   
+        &kp N1    &kp N2   &kp N3  &kp N4  &kp N5
+        &kp N6    &kp N7   &kp N8  &kp N9  &kp N0
+   &kp ESC        &mo 1 &kp SPACE &kp LSHIFT
                         >;
                 };
                 lower_layer {
                         bindings = <
-   &none   &none   &none   &bt BT_CLR_ALL   &bt BT_CLR
-   &none   &none   &none   &none   &bootloader
-   &none   &none   &none   &none   &bt BT_SEL 4
-&bt BT_SEL 0   &none       &bt BT_SEL 1  &bt BT_SEL 2
+        &kp C_MUTE  &kp C_VOL_DOWN   &kp C_VOL_UP     $none   &none
+        &kp C_PAUSE &kp C_PREV       &kp C_NEXT       &none   &bootloader
+        &none   &none   &none        &bt BT_CLR_ALL   &bt BT_CLR 
+&bt BT_SEL 0    &none       &bt BT_SEL 1  &bt BT_SEL 2
                         >;
                 };
         };
